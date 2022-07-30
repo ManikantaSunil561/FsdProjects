@@ -1,0 +1,25 @@
+class Bike1{
+	int speed=200;
+	void display() {
+		System.out.println("super class :this is a bike"+speed);
+	}
+}
+class vehicle extends Bike1{
+	int speed=300;
+	void speedOfR15() {
+		speed=super.speed+120;
+		System.out.println(speed);
+	}
+	void display() {
+		super.display();
+	}
+	
+}
+
+public class SuperKeyword1 {
+public static void main(String[] args) {
+	vehicle r15=new vehicle();
+	r15.display();
+	r15.speedOfR15();
+}
+}

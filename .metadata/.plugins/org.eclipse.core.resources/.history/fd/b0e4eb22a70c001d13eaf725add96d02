@@ -1,0 +1,11 @@
+class car
+{
+	int speed=200;
+}
+class vehicle extends car
+{
+	
+}
+public class SuperKeyword {
+
+}

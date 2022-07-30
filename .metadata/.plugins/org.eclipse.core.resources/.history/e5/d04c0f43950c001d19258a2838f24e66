@@ -1,0 +1,6 @@
+public class Division{
+	Divsion(int a,int b)
+	{
+		System.out.printl(a/b);
+	}
+}
