@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.wipro.eb.exception.InvalidReadingException"/>
+    <fullyQualifiedTypeName name="com.wipro.eb.exception.InvalidConnectionException"/>
+    <fullyQualifiedTypeName name="com.wipro.eb.service.ConnectionService"/>
+    <fullyQualifiedTypeName name="com.wipro.eb.entity.Domestic"/>
+    <fullyQualifiedTypeName name="com.wipro.eb.entity.Commercial"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

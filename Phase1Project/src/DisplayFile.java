@@ -1,7 +1,7 @@
 import java.io.File;
 import java.io.IOException;
 public class DisplayFile{
-	public static void main(String[] args) throws IOException {
+	public void displayfile() throws IOException {
 		String path="F:\\mphasis\\";
 		File f=new File(path);
 		//display operation

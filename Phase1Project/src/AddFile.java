@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class AddFile{
-	public static void main(String[] args) throws IOException {
+	public void addfile() throws IOException {
 		String path="F:\\mphasis\\";
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the filename");

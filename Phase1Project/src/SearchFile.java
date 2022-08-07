@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class SearchFile{
-	public static void main(String[] args) throws IOException {
+	public void searchfile() throws IOException {
 		String path="F:\\mphasis\\";
 		File f=new File(path);
 		//display operation

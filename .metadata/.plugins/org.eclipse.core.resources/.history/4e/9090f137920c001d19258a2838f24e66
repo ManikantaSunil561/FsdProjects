@@ -1,7 +1,0 @@
-
-public class ArithmeticCalculator {
-	Details(int sal,int bonus)
-	{
-		System.out.println(sal+bonus);
-	}
-}

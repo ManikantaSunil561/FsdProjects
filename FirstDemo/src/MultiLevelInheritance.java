@@ -1,12 +1,12 @@
 //package inheritance;
 
-class Bike{
+class Bike1{
 	int speed=200;
 	void display() {
 		System.out.println("this is a bike");
 	}
 }
-class R15 extends Bike{
+class R15 extends Bike1{
 	int speed=300;
 	void speedOfR15() {
 		System.out.println(speed+120);

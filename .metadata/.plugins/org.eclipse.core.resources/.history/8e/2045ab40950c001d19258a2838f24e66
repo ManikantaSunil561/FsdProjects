@@ -1,6 +1,0 @@
-public class Division{
-	Divsion(int a,int b)
-	{
-		return a/b;
-	}
-}

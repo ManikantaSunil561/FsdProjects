@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class DeleteFile{
-	public static void main(String[] args) throws IOException {
+	public void deletefile() throws IOException {
 		String path="F:\\mphasis\\";
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the filename");

@@ -11,7 +11,7 @@ public class ProjectFile{
 		while(true)
 		{
 			switch(v){
-				case 1: d.DisplayFile();
+				case 1:d.displayfile();
 						break;
 				case 2:
 					while(true){
@@ -19,12 +19,22 @@ public class ProjectFile{
 						int v1=sc.nextInt();
 						switch(v1) {
 						case 1:
-							a.AddFile();
+							a.addfile();
+							break;
+						case 2:
+							de.deletefile();
+							break;
+						case 3:
+							s.searchfile();
+						case 4:
+							System.exit(0);
+							break;
+						default:
+							System.out.println("Enter Correct Option");
 							break;
 						}
+						
 					}
-				case 3:System.out("exit");
-					   break;
 			}
 
 
